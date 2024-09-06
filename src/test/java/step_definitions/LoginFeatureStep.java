@@ -37,7 +37,6 @@ public class LoginFeatureStep {
     @When("User enter {string} on the username filed")
     public void userEnterOnTheUsernameFiled(String username) {
         loginPage.writeOnAElement(loginPage.emailInputBox, username);
-
     }
 
     @And("User enter {string} on the password filed")
